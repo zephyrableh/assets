@@ -2039,9 +2039,9 @@
     "Media": {
         "Bold": false,
         "Keybind": 0,
-        "Name": "Akari User",
+        "Name": "FakeName",
         "Obfuscated": false,
-        "RealName": "DespiseThemAll",
+        "RealName": "Akari User",
         "Text Color": 25,
         "Toggle": 0,
         "Visible": false,
