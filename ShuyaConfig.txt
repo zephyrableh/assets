@@ -2039,7 +2039,7 @@
     "Media": {
         "Bold": false,
         "Keybind": 0,
-        "Name": "xonires",
+        "Name": "Akari User",
         "Obfuscated": false,
         "RealName": "DespiseThemAll",
         "Text Color": 25,
