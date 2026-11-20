@@ -14,9 +14,9 @@
         "Fog": false,
         "Fog Color": {
             "Alpha": 255,
-            "Blue": 188,
-            "Green": 118,
-            "Red": 120,
+            "Blue": 19,
+            "Green": 12,
+            "Red": 19,
             "Synced": true
         },
         "Glint": true,
@@ -60,6 +60,7 @@
             "Synced": false
         },
         "Page": 0,
+        "Reset Colors": false,
         "Sky Background": {
             "Alpha": 255,
             "Blue": 6,
@@ -118,24 +119,27 @@
     },
     "AnchorAuraV2": {
         "Anim Speed": 10.0,
-        "Delay": 2,
+        "Anti Suicide": false,
+        "Delay": 0,
         "FacePlace": true,
         "Fill Color": {
             "Alpha": 64,
-            "Blue": 188,
-            "Green": 118,
-            "Red": 120,
+            "Blue": 19,
+            "Green": 12,
+            "Red": 19,
             "Synced": true
         },
         "KaAnchor": false,
         "Keybind": 0,
         "Line Color": {
             "Alpha": 200,
-            "Blue": 188,
-            "Green": 118,
-            "Red": 120,
+            "Blue": 19,
+            "Green": 12,
+            "Red": 19,
             "Synced": true
         },
+        "Max Self": 10.0,
+        "Min Damage": 6.0,
         "Multi": false,
         "Name": "",
         "Place Range": 6,
@@ -166,9 +170,9 @@
         "enabled": false
     },
     "AntiCrystal": {
-        "Keybind": 66,
+        "Keybind": 67,
         "Name": "",
-        "Reduce": 0.6000000238418579,
+        "Reduce": 1.0,
         "Toggle": 0,
         "Visible": true,
         "enabled": false
@@ -255,7 +259,7 @@
         "Show Binds": false,
         "Show Modes": false,
         "Side Bar": 2,
-        "Size": 0.9924243688583374,
+        "Size": 1.221296787261963,
         "Spacing": 0,
         "Theme": 1,
         "Toggle": 0,
@@ -263,6 +267,15 @@
         "Wave Speed": 1.6479591131210327,
         "Wave Style": 0,
         "enabled": true
+    },
+    "Astral": {
+        "Activation": 0,
+        "Delay": 100,
+        "Keybind": 0,
+        "Name": "",
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
     },
     "Aura": {
         "Adaptive Rot": true,
@@ -317,6 +330,17 @@
         "Visible": true,
         "enabled": false
     },
+    "AutoClicker": {
+        "Hold": false,
+        "Keybind": 0,
+        "Max CPS": 12.0,
+        "Min CPS": 8.0,
+        "Name": "",
+        "RightClick": false,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+    },
     "AutoCrystal": {
         "Break Delay": 0.0,
         "Chaining": true,
@@ -359,7 +383,7 @@
         },
         "Damage Text": true,
         "Dynamic Damage Color": true,
-        "Faceplace": true,
+        "Faceplace": false,
         "Faceplace Damage": 1.0,
         "Faceplace Health": 8.0,
         "Fill Color": {
@@ -369,12 +393,12 @@
             "Red": 150,
             "Synced": false
         },
-        "ID Packets": 7,
+        "ID Packets": 12,
         "ID Predict": true,
         "ID Queue": true,
         "Intersect": false,
         "KA ID Packets": 3,
-        "KaCa": false,
+        "KaCa": true,
         "Keybind": 0,
         "Line Color": {
             "Alpha": 220,
@@ -386,8 +410,8 @@
         "Max Self Damage": 10.0,
         "Min Break Damage": 0.0,
         "Min Place Damage": 4.0,
-        "MultiPlace": true,
-        "MultiPlace Count": 2,
+        "MultiPlace": false,
+        "MultiPlace Count": 1,
         "Name": "",
         "Packet Place": false,
         "Pause Break": false,
@@ -416,6 +440,14 @@
     },
     "AutoEmote": {
         "Delay": 10,
+        "Keybind": 0,
+        "Name": "",
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+    },
+    "AutoHome": {
+        "Home": "",
         "Keybind": 0,
         "Name": "",
         "Toggle": 0,
@@ -739,7 +771,7 @@
         "Ground Vertical-Only Space Speed": 0.20000000298023224,
         "Hor WASD+Shift Speed": 1.2191272974014282,
         "Hor WASD+Space Speed": 0.7154131531715393,
-        "Horizontal Speed": 2.326118230819702,
+        "Horizontal Speed": 2.3267459869384766,
         "Keybind": 70,
         "Min Speed Multiplier": 1.0,
         "Name": "Fly",
@@ -973,7 +1005,7 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 161,
-            "Red": 164,
+            "Red": 255,
             "Synced": false
         },
         "Saturation": 0.800000011920929,
@@ -1007,6 +1039,14 @@
         "Toggle": 0,
         "Visible": true,
         "enabled": false
+    },
+    "CriticalsTPE": {
+        "Keybind": 0,
+        "Mode": 2,
+        "Name": "",
+        "Toggle": 0,
+        "Visible": false,
+        "enabled": true
     },
     "CrystalAura": {
         "BasePlace": true,
@@ -1162,7 +1202,7 @@
         "Name": "",
         "RGB": false,
         "Smooth": true,
-        "Speed": 0.04642849415540695,
+        "Speed": 0.44518616795539856,
         "Style": 0,
         "Toggle": 0,
         "Visible": false,
@@ -1185,6 +1225,13 @@
         "PosY": 805.0,
         "Text": "goodmorning,UwU",
         "TextSize": 0.7949134707450867,
+        "Toggle": 0,
+        "Visible": false,
+        "enabled": false
+    },
+    "DamageText": {
+        "Keybind": 0,
+        "Name": "",
         "Toggle": 0,
         "Visible": false,
         "enabled": false
@@ -1451,7 +1498,7 @@
     "Flight": {
         "Dynamic": true,
         "Glide": -0.12655656039714813,
-        "HSpeed": 2.0297014713287354,
+        "HSpeed": 2.3530964851379395,
         "Keybind": 0,
         "Name": "",
         "Toggle": 0,
@@ -1478,14 +1525,14 @@
         "enabled": false
     },
     "Fonts": {
-        "Font": 10,
+        "Font": 5,
         "FontSize": 23,
         "Italic": false,
         "Keybind": 0,
         "Lowercase": false,
         "Name": "",
         "Shadow": true,
-        "TextAA": 0,
+        "TextAA": 1,
         "Toggle": 0,
         "Visible": false,
         "enabled": false
@@ -1510,6 +1557,34 @@
         "Toggle": 0,
         "Value": 0.0,
         "Visible": true,
+        "enabled": false
+    },
+    "GlideFly": {
+        "Armor Swap": false,
+        "Glide": -0.12999999523162842,
+        "Glide Spoof": true,
+        "Ground Glide": -0.14000000059604645,
+        "Ground H Speed": 1.9299999475479126,
+        "Ground H WASD+Shift Speed": 0.20000000298023224,
+        "Ground H WASD+Space Speed": 0.20000000298023224,
+        "Ground V WASD+Shift Speed": 0.20000000298023224,
+        "Ground V WASD+Space Speed": 0.20000000298023224,
+        "H Speed": 2.5999999046325684,
+        "H WASD+Shift Speed": 1.2200000286102295,
+        "H WASD+Space Speed": 0.7200000286102295,
+        "Keybind": 0,
+        "Name": "",
+        "Sneak": false,
+        "Toggle": 0,
+        "V WASD+Shift Speed": 3.0,
+        "V WASD+Space Speed": 1.1100000143051147,
+        "Visible": true,
+        "Water Glide": -0.12999999523162842,
+        "Water H Speed": 2.5999999046325684,
+        "Water H WASD+Shift Speed": 1.1699999570846558,
+        "Water H WASD+Space Speed": 0.7200000286102295,
+        "Water V WASD+Shift Speed": 3.0,
+        "Water V WASD+Space Speed": 1.4299999475479126,
         "enabled": false
     },
     "HUD": {
@@ -1675,8 +1750,12 @@
         "Hide Unknown": true,
         "Keybind": 0,
         "Max Cycles": 0,
+        "Method": 0,
         "Name": "",
         "Notify": true,
+        "Park Slot": 0,
+        "Reopen": true,
+        "Resend": 0,
         "Toggle": 0,
         "Trigger": 2,
         "Visible": true,
@@ -1692,8 +1771,12 @@
         "Hide Unknown": true,
         "Keybind": 0,
         "Max Cycles": 0,
+        "Method": 0,
         "Name": "",
         "Notify": true,
+        "Park Slot": 0,
+        "Reopen": true,
+        "Resend": 0,
         "Toggle": 0,
         "Trigger": 2,
         "Visible": true,
@@ -1846,33 +1929,44 @@
         "enabled": false
     },
     "KillEffect": {
-        "Bolt Color": {
+        "Bolt Core": {
             "Alpha": 255,
             "Blue": 255,
-            "Green": 255,
-            "Red": 255,
+            "Green": 240,
+            "Red": 220,
             "Synced": false
         },
-        "Bolt Lifetime": 1.9464277029037476,
-        "Bolt Segments": 16,
-        "Bolt Size": 0.06444801390171051,
-        "Color": {
-            "Alpha": 255,
+        "Bolt Glow": {
+            "Alpha": 120,
             "Blue": 255,
-            "Green": 200,
-            "Red": 0,
+            "Green": 160,
+            "Red": 100,
             "Synced": false
         },
+        "Bolt Life": 0.5,
         "Keybind": 0,
         "Lifetime": 2.0,
         "Lightning": true,
-        "Max Radius": 2.5,
         "Name": "",
         "Only Enemies": true,
-        "Rainbow": false,
-        "Ring Count": 5,
+        "Particles": 24,
+        "Primary": {
+            "Alpha": 255,
+            "Blue": 220,
+            "Green": 180,
+            "Red": 255,
+            "Synced": false
+        },
+        "Secondary": {
+            "Alpha": 255,
+            "Blue": 255,
+            "Green": 130,
+            "Red": 180,
+            "Synced": false
+        },
         "Self Test": false,
-        "Speed": 10.0,
+        "Sound": false,
+        "Style": 0,
         "Toggle": 0,
         "Visible": false,
         "enabled": true
@@ -1912,9 +2006,9 @@
         "EatStop": true,
         "Hit Result": 4,
         "HitRotSpeed": 34.415584564208984,
-        "Keybind": 82,
+        "Keybind": 0,
         "Mobs": false,
-        "Name": "KillAura",
+        "Name": "KillAuraF",
         "Orbit Size": 60.0,
         "Orbit Speed": 5.0,
         "RandomPitch": true,
@@ -1938,6 +2032,34 @@
         "Weapon": 0,
         "Weather Switch": true,
         "enabled": false
+    },
+    "KillauraNX": {
+        "Attack Mobs": false,
+        "Hit Chance": 100,
+        "Hurttime": false,
+        "Interval": 0,
+        "Keybind": 0,
+        "Multiplier": 1,
+        "Name": "",
+        "NoSwing": false,
+        "Randomize Hit": false,
+        "Range": 2.0,
+        "Rotation": 0,
+        "Switch": 0,
+        "TV Color": {
+            "Alpha": 255,
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255,
+            "Synced": false
+        },
+        "Target Visualize": false,
+        "TargetMode": 0,
+        "Toggle": 0,
+        "Vertical Offset": 0.30000001192092896,
+        "Visible": true,
+        "enabled": false,
+        "speed predict head": 0.10000000149011612
     },
     "KillauraWIHK": {
         "APS": 50,
@@ -1985,6 +2107,31 @@
         "WallRange": 40.0,
         "Weapon": 0,
         "Y Offset": 9,
+        "enabled": false
+    },
+    "KillauraXqd": {
+        "APS": 42.41812515258789,
+        "APS Multi": 1.1807830333709717,
+        "AimPos": 0,
+        "Boost": true,
+        "Boost APS": 55.42866516113281,
+        "Keybind": 82,
+        "Mobs": false,
+        "Name": "KillAura",
+        "Range": 45.0,
+        "Rotation": 2,
+        "Toggle": 0,
+        "Visible": true,
+        "Visual Color": {
+            "Alpha": 255,
+            "Blue": 200,
+            "Green": 130,
+            "Red": 255,
+            "Synced": false
+        },
+        "Visualize": false,
+        "Weapon": 0,
+        "Weather Switch": true,
         "enabled": false
     },
     "LabubuAura": {
@@ -2039,9 +2186,9 @@
     "Media": {
         "Bold": false,
         "Keybind": 0,
-        "Name": "FakeName",
+        "Name": "Shu",
         "Obfuscated": false,
-        "RealName": "Akari User",
+        "RealName": "DespiseThemAll",
         "Text Color": 25,
         "Toggle": 0,
         "Visible": false,
@@ -2100,7 +2247,7 @@
             "Synced": false
         },
         "Durability": false,
-        "Dynamic Pops": true,
+        "Dynamic Pops": false,
         "Enchantments": false,
         "Friend Color": {
             "Alpha": 255,
@@ -2127,12 +2274,33 @@
             "Synced": false
         },
         "Scale": 1.0,
-        "Show Armor": false,
+        "Show Armor": true,
         "Show Self": false,
         "Toggle": 0,
         "Underline": false,
         "Visible": false,
         "enabled": true
+    },
+    "NameTagsV2": {
+        "Armor": true,
+        "Background": false,
+        "Items": false,
+        "Keybind": 0,
+        "Mobs": false,
+        "Name": "",
+        "Opacity": 0,
+        "Rect Color": {
+            "Alpha": 125,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0,
+            "Synced": false
+        },
+        "Self": true,
+        "Size": 1.0,
+        "Toggle": 0,
+        "Visible": false,
+        "enabled": false
     },
     "NearbyCount": {
         "Accent": {
@@ -2307,7 +2475,7 @@
             "Synced": false
         },
         "Visuals": true,
-        "enabled": true
+        "enabled": false
     },
     "PistonCrystal": {
         "Chain": false,
@@ -2393,8 +2561,16 @@
         "enabled": false
     },
     "PopChams": {
+        "Accent": {
+            "Alpha": 255,
+            "Blue": 255,
+            "Green": 200,
+            "Red": 90,
+            "Synced": false
+        },
         "Ascend": true,
         "Ascend Spd": 1.0,
+        "Fade": 1.600000023841858,
         "Fill": {
             "Alpha": 60,
             "Blue": 255,
@@ -2405,7 +2581,6 @@
         "Friends": false,
         "Halo": true,
         "Keybind": 0,
-        "Life": 1.0,
         "Line": {
             "Alpha": 220,
             "Blue": 255,
@@ -2414,17 +2589,15 @@
             "Synced": false
         },
         "Name": "",
+        "Pose": true,
         "Self": false,
-        "Shrink": true,
-        "Style": 0,
+        "Sparks": true,
         "Test": false,
         "Toggle": 0,
         "Visible": false,
-        "Wireframe": false,
         "enabled": true
     },
     "PopCounter": {
-        "Death Message": false,
         "Keybind": 0,
         "Message Style": 3,
         "Name": "",
@@ -2433,6 +2606,20 @@
         "Toggle": 0,
         "Track Friends": false,
         "Track Self": true,
+        "Visible": false,
+        "enabled": false
+    },
+    "PopCounterV2": {
+        "Keybind": 0,
+        "Leave Messages": true,
+        "Message Style": 0,
+        "Name": "",
+        "Notify": true,
+        "Range": 100.0,
+        "Send Chat": true,
+        "Sound Checker": true,
+        "Toggle": 0,
+        "Track Friends": false,
         "Visible": false,
         "enabled": true
     },
@@ -2482,6 +2669,53 @@
         "Mode": 0,
         "Name": "",
         "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+    },
+    "PreloaderConfig": {
+        "Keybind": 0,
+        "Name": "",
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+    },
+    "PvPResources": {
+        "Anchors": false,
+        "BG Color": {
+            "Alpha": 120,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0,
+            "Synced": false
+        },
+        "Background": true,
+        "Crystals": true,
+        "Glowstone": false,
+        "Keybind": 0,
+        "Label Color": {
+            "Alpha": 255,
+            "Blue": 180,
+            "Green": 180,
+            "Red": 180,
+            "Synced": false
+        },
+        "Name": "",
+        "Netherite Blocks": false,
+        "Obsidian": true,
+        "PosX": 4.0,
+        "PosY": 80.0,
+        "Position X": 4.0,
+        "Position Y": 80.0,
+        "Reset Positions": false,
+        "Scale": 1.0,
+        "Toggle": 0,
+        "Value Color": {
+            "Alpha": 255,
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255,
+            "Synced": false
+        },
         "Visible": true,
         "enabled": false
     },
@@ -2782,6 +3016,18 @@
         "Visible": false,
         "enabled": true
     },
+    "TankMode": {
+        "CancelHurtTime": true,
+        "KB Horizontal%": 0.0,
+        "KB Vertical%": 0.0,
+        "Keybind": 82,
+        "Name": "",
+        "NoHurtAnim": true,
+        "PositionJitter": true,
+        "Toggle": 0,
+        "Visible": false,
+        "enabled": false
+    },
     "TargetChams": {
         "All Targets": false,
         "Color": {
@@ -2818,28 +3064,38 @@
     },
     "Timer": {
         "Hold Key": 0,
-        "Keybind": 0,
+        "Keybind": 82,
         "Keybind System": false,
         "Max TPS": 24.0,
         "Min TPS": 22.0,
         "Name": "",
         "Smooth": false,
-        "TPS": 20.0,
+        "TPS": 17.42620277404785,
         "TickShift": true,
         "Toggle": 0,
         "Visible": false,
         "enabled": false
     },
     "TimerBypass": {
-        "Keybind": 82,
+        "Keybind": 0,
         "Max TPS": 40.0,
         "Min TPS": 20.0,
-        "Mode": 2,
+        "Mode": 0,
         "Name": "",
         "TPS": 21,
         "TickShift": false,
         "Toggle": 0,
         "Visible": false,
+        "enabled": false
+    },
+    "TotemAlert": {
+        "+ Add Message": false,
+        "Keybind": 0,
+        "Messages Data": "",
+        "Name": "",
+        "Toggle": 0,
+        "Totem Limit": 3,
+        "Visible": true,
         "enabled": false
     },
     "TotemCounter": {
@@ -3045,9 +3301,7 @@
         "LinkedTick94676",
         "CpOverload",
         "BedoKas69420",
-        "DESTROYER8829",
         "IM METALLICAN",
-        "MclarenGWD123",
         "THE DARKNESS809",
         "JackLesCat",
         "Qcrfishy",
@@ -3063,7 +3317,10 @@
         "Toog32k",
         "PaperoMC5212",
         "klpcreeper1",
-        "Mon Lay2147513"
+        "Mon Lay2147513",
+        "iberic6730",
+        "MclarenGWD123",
+        "DESTROYER8829"
     ],
     "name": "Akari"
 }
