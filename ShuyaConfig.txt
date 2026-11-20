@@ -14,9 +14,9 @@
         "Fog": false,
         "Fog Color": {
             "Alpha": 255,
-            "Blue": 19,
-            "Green": 12,
-            "Red": 19,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0,
             "Synced": true
         },
         "Glint": true,
@@ -124,18 +124,18 @@
         "FacePlace": true,
         "Fill Color": {
             "Alpha": 64,
-            "Blue": 19,
-            "Green": 12,
-            "Red": 19,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0,
             "Synced": true
         },
         "KaAnchor": false,
         "Keybind": 0,
         "Line Color": {
             "Alpha": 200,
-            "Blue": 19,
-            "Green": 12,
-            "Red": 19,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0,
             "Synced": true
         },
         "Max Self": 10.0,
@@ -794,7 +794,7 @@
         "Water Ver WASD+Space Speed": 1.4303621053695679,
         "Water Vertical-Only Shift Speed": 3.0,
         "Water Vertical-Only Space Speed": 1.2841225862503052,
-        "enabled": false
+        "enabled": true
     },
     "BypassFly2": {
         "Glide": -0.12999999523162842,
@@ -1525,7 +1525,7 @@
         "enabled": false
     },
     "Fonts": {
-        "Font": 5,
+        "Font": 0,
         "FontSize": 23,
         "Italic": false,
         "Keybind": 0,
